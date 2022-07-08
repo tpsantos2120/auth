@@ -8,12 +8,12 @@ spring:
     username: thiago
     password: password
     url: jdbc:postgresql://localhost:5432/registration
+    
   jpa:
     hibernate:
       ddl-auto: create-drop
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQL82Dialect
